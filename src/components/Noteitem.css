@@ -1,0 +1,59 @@
+/* Note Card - Glassmorphism Style */
+.note-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  /* Hover effect */
+  .note-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 30px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Note Title */
+  .note-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+  }
+  
+  /* Note Text */
+  .note-text {
+    font-size: 1rem;
+    opacity: 0.9;
+    color: #dddddd;
+  }
+  
+  /* Actions Container */
+  .note-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  /* Delete & Edit Icons */
+  .delete-icon, .edit-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease-in-out;
+  }
+  
+  /* Delete Icon - Red */
+  .delete-icon:hover {
+    color: rgb(255, 80, 80);
+    transform: scale(1.1);
+  }
+  
+  /* Edit Icon - Green */
+  .edit-icon:hover {
+    color: rgb(80, 255, 160);
+    transform: scale(1.1);
+  }
+  

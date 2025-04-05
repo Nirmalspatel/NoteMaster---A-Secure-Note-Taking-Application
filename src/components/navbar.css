@@ -1,0 +1,98 @@
+/* Navbar Container */
+.navbar {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(15px);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 5px 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Brand Name */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white !important;
+  text-shadow: 0px 3px 10px rgba(255, 255, 255, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8) !important;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ff512f !important;
+}
+
+/* Login & Signup Buttons */
+.auth-buttons .btn {
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.auth-buttons .btn-login {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+.auth-buttons .btn-login:hover {
+  background: linear-gradient(to right, #2a5298, #1e3c72);
+  box-shadow: 0px 5px 15px rgba(30, 60, 114, 0.5);
+}
+
+.auth-buttons .btn-signup {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  color: white;
+}
+
+.auth-buttons .btn-signup:hover {
+  background: linear-gradient(to right, #dd2476, #ff512f);
+  box-shadow: 0px 5px 15px rgba(255, 81, 47, 0.5);
+}
+
+/* Logout Button */
+.logout-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 1.8rem;
+}
+
+.logout-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+}
+.name{
+  font-size: 15px;
+}

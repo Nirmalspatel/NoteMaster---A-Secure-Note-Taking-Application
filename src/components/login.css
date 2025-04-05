@@ -1,0 +1,99 @@
+/* Full-Screen Centered Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 57.8vh;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #283048, #859398);
+  width: 25%;
+  margin-top: 10rem;
+  margin-left: 35rem;
+}
+
+/* Card Styling */
+.login-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+}
+
+/* Title */
+.login-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Subtitle */
+.login-subtitle {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+/* Form Fields */
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Input Focus */
+.form-group input:focus {
+  border: 2px solid #fff;
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #00c6ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+  background: #0072ff;
+}
+
+/* Footer Text */
+.login-footer {
+  margin-top: 15px;
+  color: #ddd;
+}
+
+.login-footer a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
